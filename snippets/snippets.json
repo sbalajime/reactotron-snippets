@@ -1,0 +1,34 @@
+{
+    "Reactotron log": {
+        "scope": "javascript,typescript",
+        "prefix": "RTL",
+        "body": [
+            "Reactotron.log({$1});"
+        ],
+        "description": "Reactotron logs for react native"
+    },
+    "Reactotron Warn": {
+        "prefix": "RTW",
+        "body": [
+            "Reactotron.warn('$1');",
+            "$2"
+        ],
+        "description": "warn output to reactotron console"
+    },
+    "Reactotron Error": {
+        "prefix": "RTE",
+        "body": [
+            "Reactotron.error('$1');",
+            "$2"
+        ],
+        "description": "error output to reactotron console"
+    },
+    "Reactotron Display": {
+        "prefix": "RTD",
+        "body": [
+            "Reactotron.display({$1});",
+            "$2"
+        ],
+        "description": "Display output to reactotron console"
+    }
+}
