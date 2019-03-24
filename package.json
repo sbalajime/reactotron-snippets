@@ -2,9 +2,11 @@
     "name": "reactotron-snippets",
     "displayName": "Reactotron snippets",
     "description": "snippets for various reactotron logs",
-    "version": "0.0.1",
+    "version": "0.0.2",
+    "publisher":"BalajiS",
+    "repository":"https://github.com/sbalajime/reactotron-snippets",
     "engines": {
-        "vscode": "^1.32.0"
+        "vscode": "^1.25"
     },
     "categories": [
         "Snippets"
